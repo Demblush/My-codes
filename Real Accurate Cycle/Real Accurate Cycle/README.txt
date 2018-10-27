@@ -7,6 +7,61 @@ I will explain page by page.
 
 Note: aside form emails any string document you will be typing that will display to d users ensure that the first letter is capitalized
 
+New Pages:
+
+
+
+There are some special users(all have an account already) that can be added to the admin table by the admin.
+For every 5 people that Gh(Recieves money) I want you to make sure that the users on this table recieves 1. 
+I.e distibute 4 people to the general users who are to recieve payment on the website, then give 1 to 1 of those 
+users whose name and phone number are on the admin table.again distribute 4 to the general users, then 1 to anoda person on the table etc.
+The maximum number of gh this speciqal users can recieve should be set to 4 as default pls do so. But the admin can alter the maximum anytime.
+But pls ensure that every 12:00am that gh limit is set back to 4  maximum(default) 
+   
+
+	
+
+
+1. AdminPanel
+
+a. All users will create a normal account. So there are some special people we want to make room for.
+
+	When the admin types in the details, I want you  to use that input form to collect the datas of
+	those people through the phone number and add it to the table (Those Users must have been registered normally on the create account page)
+Also use gh value to indicate the amount of payment special users have recieved daily. i.e if the special user clicks paid, Increment is gh value by 1
+
+2. Adminpanel1
+
+a. Login, 
+	When the admin clicks on any users phone number in adminpanel.html, it will link d admin to adminpanel1.html.
+	so if the admin clicks login I want u to allow the admin to access the users dashboard with passowrd or any other detail.
+	(Allow the admin to access the dashboard of the phone number he clicked.)
+
+	Note: ensure that no phone number can be use to open 2 accounts.
+
+
+3. delete
+	when the admin clics delete, I want you to delete the user from that table
+
+4. Gh limit
+For changing maximum number of paring for each special user daily.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 1. Change page.
 
 After the user input account information, prompt the change button to replace the old account details in the database 
